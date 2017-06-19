@@ -1,0 +1,38 @@
+Web-ContextPath: /portal
+Bundle-ClassPath: .,WEB-INF/classes
+Import-Package:  javax.servlet, \
+                 javax.servlet.http, \
+                 javax.servlet.jsp, \
+                 org.springframework.stereotype, \
+                 org.springframework.web.bind.annotation, \
+                 org.springframework.context.config,\
+                 org.springframework.web.context, \
+                 org.springframework.beans.factory.xml,\
+                 org.springframework.web.servlet.config,\
+                 org.springframework.web.servlet, \
+                 org.springframework.web.filter, \
+                 org.springframework.data.redis.connection.jedis,\
+                 org.springframework.session.data.redis.config.annotation.web.http,\
+                 org.springframework.beans.factory,\
+                 org.springframework.context, \
+                 org.springframework.context.annotation, \
+                 org.springframework.context.support, \
+                 org.springframework.core.annotation, \
+                 org.springframework.core.type,\
+                 org.springframework.data.redis.connection, \
+                 org.springframework.data.redis.core, \
+                 org.springframework.data.redis.listener, \
+                 org.springframework.data.redis.serializer, \
+                 org.springframework.scheduling.annotation, \
+                 org.springframework.session.config.annotation.web.http, \
+                 org.springframework.session.data.redis,\
+                 org.springframework.session.data.redis.config , \
+                 org.springframework.session.web.http, \
+                 org.springframework.util, \
+                 org.springframework.cglib.core
+
+
+
+
+
+
